@@ -1,0 +1,16 @@
+# Dependencies
+/vendor/
+
+# Environment
+.env
+.env.*
+
+# XAMPP
+Thumbs.db
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Log
+*.log

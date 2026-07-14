@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  background: #f5f5f5;
+  font-family: Poppins, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100vh;
+  background: #2a1913;
+  color: #fff;
+  overflow-y: auto;
+}
+
+.logo {
+  padding: 30px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo h4 {
+  color: #d89a3d;
+  font-weight: 700;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  display: block;
+  text-decoration: none;
+  color: #ddd;
+  padding: 12px 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+  background: #d89a3d;
+  color: #2a1913;
+}
+
+.sidebar i {
+  width: 25px;
+}
+
+.content {
+  margin-left: 260px;
+  width: calc(100% - 260px);
+  min-height: 100vh;
+  padding: 30px;
+  background: #f5f5f5;
+  overflow-x: auto;
+}
+
+.content-wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.sidebar ul li a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #ddd;
+  padding: 12px 18px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+  background: #d89a3d;
+  color: #2a1913;
+}
+
+.sidebar ul li a.active {
+  background: #d89a3d;
+  color: #2a1913;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(216, 154, 61, 0.35);
+}
+
+.sidebar ul li a.active i {
+  color: #2a1913;
+}
+.container-fluid {
+  max-width: 100% !important;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.card {
+  border-radius: 16px;
+}
+#menuTable {
+  width: 100% !important;
+}
+
+#menuTable th,
+#menuTable td {
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+#menuTable td:nth-child(3) {
+  white-space: normal;
+  min-width: 260px;
+}
+
+#menuTable img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 10px;
+}
